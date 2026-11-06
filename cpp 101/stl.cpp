@@ -29,8 +29,29 @@ void solve(){
   points.insert({1,2});
   for(auto it:points){
     cout << '(' << it.first << ',' << it.second << ") ";
-    
   }
+
+  //strings
+  // vector of chars
+  string s1="Apd";
+  for(char c:s1){
+    cout << c;
+  }
+  //string concat
+  string a="abc";
+  string b="def";
+  cout << a+" "+b; //concat is O(n);
+  sort(a.begin(),a.end()); // <-- sorts in lexicographical order and complexity is O(nlogn)
+  vector<string>v1={"abc","def","ghi"};
+  sort(v.begin(),v.end());
+  for(string s:v1) cout << s << '\n';  //TC-O(n*mlogm) m- number of strings
+  s1="Hello world";
+  string sub=s1.substr(0,5);
+  cout << sub << '\n';  //TC-O(logn)
+
+  vector<int>freq(26,0);
+  for(char c:s1)
+  freq[c-'a']++;
 }
 
 int32_t main(){

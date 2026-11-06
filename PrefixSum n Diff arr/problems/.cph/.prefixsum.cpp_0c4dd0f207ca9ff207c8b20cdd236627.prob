@@ -1,0 +1,1 @@
+{"name":"Local: prefixsum","url":"c:\\Users\\Aditya\\Desktop\\TLE-Prime\\PrefixSum n Diff arr\\prefixsum.cpp","tests":[{"id":1793555188493,"input":"5\n3\n4 5 6 2 8\n1 4\n2 3\n2 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Aditya\\Desktop\\TLE-Prime\\PrefixSum n Diff arr\\prefixsum.cpp","group":"local","local":true}
